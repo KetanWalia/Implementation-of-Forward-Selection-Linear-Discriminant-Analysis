@@ -2,6 +2,7 @@
 The code implements forward selection in sequential fashion and outputs subset of features giving minimum error while performing LDA.
 
 DATA DESCRIPTION
+
 Data consists of 4601 email messages, form which 57 features have been extracted. The features are as follows: 
  • 48 features giving the percentage (0 to 100) of words in a given message that match a given word on a list that contains such words like    “business”, “free”, etc.
  • 6 features giving the percentage (0 to 100) of characters in the email that match a given character on a list ; ( [ ! $ # 
